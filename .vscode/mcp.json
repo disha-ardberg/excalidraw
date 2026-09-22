@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "lumora": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "https://lumoraagent.org/install/lumora-mcp-0.1.2.tgz"
+      ],
+      "env": {
+        "LUMORA_URL": "https://lumoraagent.org"
+      }
+    }
+  }
+}
